@@ -1,0 +1,1155 @@
+*{
+  margin:0px ;
+  padding:0px;
+  box-sizing: border-box;
+}
+.frst{
+  color: rgb(149, 6, 94);
+
+}
+.info{
+  background-color:#322173;
+}
+
+.textc{
+  color: #6c757d !important;
+
+}
+
+
+
+/* NAV BAR START */
+
+
+.fix{
+  position: sticky !important;
+  top: 0px;
+  z-index: 1;
+
+}
+.title {
+  color: rgb(145, 7, 92) !important;
+  font-size: 45px !important;
+  font-weight: 600 !important;
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+  background-color: rgb(158, 158, 175);
+}
+.navbar-nav .dropdown:hover .nav-link {
+  color: #e81010;
+}
+.nav-item .nav-link{
+  color: #1c0674 !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(245, 15, 15); 
+}
+
+.navbar-nav {
+  font-size: large;
+}
+.nav-link:hover {
+  color: red !important;
+}
+.navbar-nav .nav-link {
+  position: relative;
+  color: black; 
+  text-decoration: none; 
+}
+
+.navbar-nav .nav-link::before,
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: blue; 
+  left: 0;
+  transition: width 0.3s ease-in-out; 
+}
+
+.navbar-nav .nav-link::before {
+  top: -5px; 
+}
+
+.navbar-nav .nav-link::after {
+  bottom: -5px; 
+}
+
+.navbar-nav .nav-link:hover::before,
+.navbar-nav .nav-link:hover::after {
+  width: 100%; 
+}
+
+
+/* NAV BAR END */
+
+
+
+
+/* START CAROUSEL */
+
+
+
+.imgtext {
+  color: white;
+  font-weight: 700;
+  padding: 0%;
+  margin-top: 0px;
+}
+.Immigration {
+  color: white ;
+  font-size: 90px;
+  font-weight: 500 !important;
+}
+.Lorem {
+  font-size: 26px;
+  color: white;
+}
+.moreDetails {
+  background-color: rgb(215, 10, 130) !important;
+  padding: 2% 4%;
+  border-radius: 30px;
+  color: white;
+}
+
+
+
+/* CAROUSEL END */
+
+
+
+
+
+
+
+
+
+
+/* ABOUT START */
+
+
+
+.about {
+  color: #322173 !important;
+}
+.trust{
+  font-weight: 600 !important;
+}
+.card-text {
+  color: rgb(150, 150, 202);
+}
+.map {
+  color: #c2245e !important;
+}
+.maptext {
+  font-size: larger;
+}
+.lor{
+  font-size: x-large;
+}
+
+.animated-slide-in-left {
+  position: relative;
+  animation: slideInFromLeft 1s ease-out forwards;
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animated-slide-in-right {
+  position: relative;
+  animation: slideInFromRight 1s ease-out forwards;
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+/* ABOUT END */
+
+
+
+
+/* RATINGS START */
+
+.visa {
+  font-size: 60px;
+}
+.visatext {
+  font-size: larger;
+}
+.Experience {
+  background-color: rgb(22, 90, 90) !important;
+  width: 15%;
+  height: 30vh;
+  text-align: center;
+  border-radius: 5%;
+}
+
+.check {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px; 
+  margin-top: -23%;
+  margin-left: 20%;
+}
+
+.check i {
+  margin-right: 8px;
+}
+.contact-info {
+  display: flex;
+  align-items: center;
+  margin-left: 20%; 
+  font-size: 24px;
+  margin-top: 5%; 
+}
+
+.contact-info i {
+  margin-right: 15px; 
+}
+.container {
+  margin-top: 7%;
+}
+.iconbg {
+  background-color:#322173;
+
+  width: 80%;
+  height: 17vh;
+  border-radius: 10% 10% 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  font-size: xxx-large;
+  color: rgb(215, 5, 5);
+ 
+}
+.rating{
+  margin-top: 4% !important  ;
+  background-image: url(https://tse2.mm.bing.net/th?id=OIP.yKbP6QeflKycXJm7tQdb9QHaEK&pid=Api&P=0&h=180);
+  height:auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5% !important;
+
+}
+.icon:hover {
+  
+  transform: rotate(360deg);
+  transition: transform 0.5s ease;
+}
+
+.semi {
+  background-color: #a7a5a5;
+  width: 80%;
+  border-radius: 0% 0% 500px 500px;
+  height: 15vh;
+}
+.name {
+  font-size: x-large;
+  padding-left: 12%;
+  color: #322173;
+  font-weight: 500;
+
+}
+.number {
+  font-size: xx-large;
+  color: #55043a;
+  padding-left: 40%;
+  font-weight: 500;
+}
+
+
+.category {
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s ease both;
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+/* RATING END */
+
+
+
+
+
+/*  VISA CATEGORIES START*/
+
+
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px; 
+}
+
+.enable {
+  font-weight: 500;
+  color: #322173 !important;
+  font-size: xxx-large;
+}
+.loram {
+  font-size: x-large;
+  color: #6d6a6a;
+}
+.sub-style::before,
+.sub-style::after {
+  content: "";
+  flex: 1; 
+  height: 5px; 
+  background-color: #860757; 
+  margin: 0 10px; 
+}
+.sub-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 10px 0; 
+}
+
+.sub-title {
+  font-size: 20px;
+  color: #322173;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 20px; 
+}
+
+
+
+/* VISA CATEGORIES  START*/
+
+
+
+
+
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+
+.img-container {
+  overflow: hidden;
+  border-radius: 15px; 
+}
+
+.imgdiv {
+  width: 100%;
+  display: block;
+  border-radius: 6%;
+
+}
+.imgdiv {
+  width: 100%;
+  
+  height: auto;
+  transition: transform 0.5s ease; 
+}
+
+.img-container:hover .imgdiv {
+  transform: scale(1.2); 
+ 
+
+}
+
+.job-title {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+
+  font-size: x-large;
+  font-weight: bold;
+  background-color: #322173; 
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+.btn2 {
+  background-color: rgb(188, 186, 186);
+  color: #c4078b;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-top: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: -80px;
+  left: 5%;
+  right: 5%; 
+  background-color: #322173; 
+  width: 90%; 
+  height: 0; 
+  overflow: hidden;
+  transition: height 0.5s ease; 
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.img-container:hover .overlay {
+  
+  height: 85%;
+}
+.btn2 {
+  background-color: rgb(186, 12, 108);
+  color: #fcfbfc;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  margin-left: 30%;
+  width: fit-content;
+
+  margin-top: 10px auto 0 auto;
+}
+
+.text {
+  color: rgb(151, 147, 147);
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.jobs {
+  font-size: x-large !important;
+  color: white;
+}
+
+.offer{
+  font-weight: 600 !important;
+  color: #322173;
+  font-size: xxx-large !important;
+}
+.col-md-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.container {
+  margin-top: 2%;
+  padding: 0px 15px;
+
+}
+ .read{
+  color: #ab1172 !important;
+  background-color: white !important;
+  border: none !important;
+ }
+ .bgw{
+  background-color: #fff5fc;
+
+}
+
+/* VISA CATEGORIES END */
+
+
+/* WHY WE CHOOSE  start*/
+
+
+
+
+.feature-item {
+  z-index: 0;
+  position: relative; 
+  overflow: hidden; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  background-color: #fff; 
+  transition: background-color 0.3s ease;  
+}
+
+.feature-item:hover {
+ 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
+.feature-icon i {
+  transition: transform 0.3s ease; 
+}
+
+.feature-item:hover .feature-icon i {
+  transform: rotate(360deg);
+  color: #930d6d !important;
+}
+.feature-icon {
+  background-color: #f9f6f8;
+  height: 15vh;
+  width: 10vw;
+  margin-left: 18%;
+  text-align: center;
+  transition: background-color 0.3s ease; 
+}
+
+.feature-item:hover .feature-icon {
+  border-radius:100px;
+  background-color: #f8f7f7;
+}
+
+
+
+.feature-item::before {
+  content: ''; 
+  position: absolute; 
+  bottom: 0; 
+  left: 0;
+  width: 100%;
+  height: 0; 
+  background-color: rgba(179, 183, 183, 0.492); 
+  transition: height 0.5s ease; 
+  z-index: 1; 
+}
+.feature-item:hover::before {
+  height: 100%; 
+}
+
+.feature-item .feature-content {
+  position: relative; 
+  z-index: 2; 
+  color: #060606; 
+}
+.feature-item:hover .feature-content {
+  color: #fefcfc; 
+}
+.morefeatures{
+  background:#cc0541 !important;
+  color: white;
+  padding: 0px 50px !important;
+
+}
+
+
+/* WHY YOU CHOOSE END */
+
+
+/* COUTRIES WE OFFER  START*/
+
+
+
+
+
+
+
+.country-item {
+  position: relative;
+  z-index: 0;
+}
+.country-item img{
+  overflow: hidden;
+}
+.country-item:hover img{
+  transform: scale(1.2);
+  transition: all 0.5s linear ;
+}
+
+.country-flag {
+  position: absolute; 
+  top: -50px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  z-index: 1; 
+ border: none;
+ border-radius: 50px;
+  border: 3px solid white; 
+  padding: 5px; 
+  background: rgba(0, 0, 0, 0.3); 
+}
+
+.country-name {
+  position: absolute;
+  z-index: 1; 
+  color: white;
+}
+.country-item:hover .country-name{
+   position: absolute;
+  top: 50%;
+  left: 40%;
+}
+
+
+.country-item:hover .country-flag img {
+  transition: all 0.5s ease;
+  transform: rotate(360deg);
+   
+ 
+
+}
+
+
+.brazil{
+  text-decoration: none;
+}
+.country-item::before {
+  content: ''; 
+  position: absolute; 
+  bottom: 0; 
+  left: 0;
+  width: 100%;
+  height: 0; 
+  background-color: rgba(76, 79, 152, 0.492) !important; 
+  transition: height 0.5s ease !important; 
+  z-index: 1; 
+}
+.country-item:hover::before {
+  height: 100%; 
+}
+
+
+
+/* COUNTRY WE OFFER */
+
+
+
+
+
+/* CLIENTS REVIEWS START */
+
+
+
+
+.testimonial-item {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.testimonial-content {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #343a40;
+}
+.star .star1{
+  color: red !important;
+}
+
+
+/* CLIENTS REVIEWS END */
+
+
+/* CHECK OUT TRAINING START*/
+
+
+
+.training-inner {
+  position: relative;
+  border-radius: 10px;
+  display: block;
+}
+.training-title-name.ielts {
+  position: absolute;
+  left: 50%;
+  bottom: -13%;
+  transform: translate(-50%, -50%);
+padding: 10px 20px;
+}
+
+ .training-title-name.ielts a {
+  text-decoration: none;
+
+} 
+.training-content{
+  position: relative;
+  display: none;
+}
+.training-content a{
+  text-decoration: none;
+}
+
+
+.training-inner::before {
+  content: ''; 
+  display: block ;
+  position: absolute; 
+  bottom: 0; 
+  left: 0px;
+  width: 100%;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.492) !important;
+  transition: height 0.5s ease !important; 
+  z-index: 1;
+}
+.training-inner:hover::before {
+  height: 60%;
+}
+.training-inner:hover .training-content {
+  position: absolute;
+  z-index: -1;
+
+  bottom: 13%;
+  display: block !important;
+}
+
+
+.lorem{
+  color: white;
+}
+
+
+.container1 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.img-container1 {
+  position: relative;
+  border-radius: 15px; 
+}
+
+.imgdiv1 {
+  width: 100%;
+  height:50vh;
+  display: block;
+  border-radius: 6%;
+
+}
+.img-container1{
+  overflow: hidden;
+
+}
+.img-container1:hover img{
+  transform: scale(1.1);
+  transition: all 0.5s linear ;
+}
+
+
+
+.job-title1 {
+  position: absolute;
+  bottom: -20px;
+  left: 30%;
+  
+  color: white;
+
+  font-size: x-large;
+  font-weight: bold;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+.btn21 {
+  background-color: rgb(188, 186, 186);
+  color: #c4078b;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-top: auto;
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 0px;
+  left: 0%; 
+  right:0%; 
+  background-color: rgb(142, 7, 90);
+  width: 100%; 
+  height: 0; 
+  overflow: hidden;
+  transition: height 0.5s ease; 
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.img-container1:hover .overlay1 {
+  height: 60%; 
+}
+.btn21 {
+  background-color: rgb(186, 12, 108);
+  color: #fcfbfc;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  margin-left: 27%;
+  width: fit-content;
+  margin-top: 10px auto 0 auto;
+}
+
+.text1 {
+  color: rgb(151, 147, 147);
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.jobs1 {
+  font-size: large ;
+  color: white;
+}
+
+
+
+/* CHECK OUR TRAINING END */
+
+
+
+/* WORLDWIDE OFFICE */
+
+div a{
+  text-decoration: none;
+}
+.bg3{
+  background: #f3fafb;
+  border-radius: 5%;
+  box-shadow: 10px 10px 10px rgb(199, 197, 197);
+}
+.color{
+  color: #8b0724 !important;
+}
+h4{
+  color: #322173 !important;
+}
+
+.office-img{
+  overflow: hidden;
+  border-radius: 5% !important;
+
+}
+.office-img:hover img{
+  transform: scale(1.2);
+  transition: all 0.5s linear;
+}
+
+
+.office-item {
+  opacity: 0;
+  animation: slideUp 0.8s ease-in-out forwards;
+
+  transform: translateY(50px);
+  animation-fill-mode: forwards; 
+}
+
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+/* WORLDWIDE OFFICE END */
+
+
+
+
+
+
+
+/* Footer Styles */
+footer {
+    background-color: #322173;
+    color: #fff;
+}
+.footer-item .contact{
+  text-align: start;
+}
+
+.footer-item a {
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+    text-align: start;
+    transition: color 0.3s ease;
+}
+
+.footer-item a:hover {
+    color: #af036d;
+    transform: scaley(1.1);
+    transform: translateX(10px);
+    
+}
+
+.footer h4 {
+    font-size: 1.5rem;
+    color: #f0f0f0;
+    margin-bottom: 1.5rem;
+}
+
+.footer .text-secondary {
+    color: #a8077f !important;
+}
+.footer-item .service{
+  text-align: start;
+}
+
+
+.footer .btn {
+    color: #fff;
+    background-color: #444;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.footer .btn:hover {
+    background-color: #ff6b6b;
+}
+
+.footer .btn-primary {
+    background-color: #ff6b6b;
+    border: none;
+}
+
+.footer .form-control {
+    background-color: #444;
+    color: #fff;
+    border: none;
+}
+.footer-item .news{
+  text-align: start;
+}
+
+.footer .form-control::placeholder {
+    color: #ccc;
+}
+
+.footer .form-control:focus {
+    box-shadow: none;
+    outline: none;
+}
+.footer-item .time{
+  text-align: start;
+}
+
+
+.footer .position-relative {
+    max-width: 400px;
+}
+.footer-item .name3{
+  text-align: start;
+}
+.footer .ww{
+  width: 100% !important;
+}
+
+
+
+.container2{
+  background-color: #b01274 !important;
+  text-align: center;
+  font-size: x-large;
+  }
+
+
+
+
+
+
+
+
+
+.top1{
+  border-radius: 50% !important;
+  background-color:#0f0471;
+  width: 70% ;
+  color: rgb(253, 251, 251);
+  font-size: 30px;
+  padding-left: 10px ;
+  padding-right: 10px;
+  position: sticky;
+  bottom: 17%;
+  left: 95%;
+  border: 1px solid red;
+}
+.top1:hover{
+  background-color: #650c4f;  
+}
+
+
+
+
+
+
+
+@media screen and (width<=600px){
+
+
+ /* ABOUT */
+ .ui img{
+  width: 100vw !important;
+ }
+
+/* CARROUSEL */
+
+ .carousel-item img{
+  height: 100vh !important;
+}
+
+.Immigration {
+  color: white ;
+  font-size: 70px !important ;
+  font-weight: 500 !important;
+}
+
+/* RATING */
+
+
+.flex1{
+  gap: 30px !important;
+}
+
+
+  /* VISA CATEGORIES */
+
+.row2{
+  display: flex;
+  flex-direction: column;
+  width: 100;
+  gap: 30px ;
+
+}
+.job-title{
+  font-size:large;
+}
+
+
+.img-container img{
+  margin: 0% ;
+}
+
+
+
+/* WHY YOU CHOOSE */
+.fex{
+  display: flex;
+  flex-direction: column;
+  width: 100% !important;
+}
+.ture{
+  
+  margin-left: 40% !important;
+}
+.feature-content{
+  font-size: x-large;
+}
+.cost{
+  font-size: xxx-large !important;
+}
+.morefeatures{
+  font-size: x-large !important;
+}
+
+/* REVIEWS */
+.tm{
+  display: flex;
+  flex-direction:column ;
+
+
+}
+  /* CHECK OUR TRAINING */
+
+  .mtring{
+  
+    gap: 30px !important;
+
+  }
+  
+}
+
+  
+
+
+
+    
