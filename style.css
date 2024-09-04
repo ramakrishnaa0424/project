@@ -1049,4 +1049,12 @@ footer {
   .mtring {
     gap: 30px !important;
   }
+.end{
+  display: flex !important;
+  flex-direction: column;
+  gap: 30px;
 }
+
+
+}
+
